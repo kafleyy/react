@@ -1,11 +1,11 @@
 import React from 'react'
-import TodoItem from '../MyComponents/TodoItem.js';
+import {TodoItem} from '../MyComponents/TodoItem.js';
 
 function Todos(props) {
     return (
         <div className="container">
             <h3>Todos List</h3>
-            <TodoItem todo={props.todo[0]}/>
+            <TodoItem todo={props.todos[0]}/>
         </div>
     )
 }

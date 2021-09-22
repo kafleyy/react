@@ -25,7 +25,7 @@ function App() {
   return(
     <>
     <Header/>
-    <Todos todos = {Todos}/>
+    <Todos todo = {todos}/>
     <TodoItem/>
     <Footer/>
     </>

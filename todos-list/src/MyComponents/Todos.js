@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Todo = () => {
+export default Todo = () => {
     return (
         <div>
             Todos works

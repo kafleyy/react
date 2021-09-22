@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default Todo = () => {
+const Footer = () => {
     return (
         <div>
-            Footer works
+            
         </div>
     )
 }
+
+export default Footer

@@ -1,5 +1,5 @@
 import React from 'react'
-import {TodoItem} from '../MyComponents/TodoItem.js';
+import TodoItem from '../MyComponents/TodoItem.js';
 
 function Todos(props) {
     return (

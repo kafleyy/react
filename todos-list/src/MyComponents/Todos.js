@@ -1,12 +1,9 @@
 import React from 'react'
-import TodoItem from '../MyComponents/TodoItem.js';
 
-function Todos({title}) {
+export const Todos = () => {
     return (
-        <div className="container">
-            <h3>Todos List</h3>
+        <div>
+            todos works
         </div>
     )
 }
-
-export default Todos

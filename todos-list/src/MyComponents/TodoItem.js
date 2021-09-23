@@ -1,11 +1,9 @@
 import React from 'react'
 
-function Todo({todo}) {
+export const TodoItem = () => {
     return (
         <div>
-           
+            Todo iteam works
         </div>
     )
 }
-
-export default Todo

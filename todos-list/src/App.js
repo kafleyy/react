@@ -1,8 +1,8 @@
 import './App.css';
-import Header from './MyComponents/Header.js';
-import Todos from "./MyComponents/Todos.js";
-import TodoItem from "./MyComponents/TodoItem.js";
-import Footer from './MyComponents/Footer.js';
+import Header from './MyComponents/Header';
+import {Todos} from "./MyComponents/Todos";
+// import TodoItem from "./MyComponents/TodoItem.js";
+import {Footer} from './MyComponents/Footer';
 
 function App() {
   let todos = [
@@ -25,8 +25,7 @@ function App() {
   return(
     <>
     <Header/>
-    <Todos todo = {todos}/>
-    <TodoItem/>
+    <Todos/>
     <Footer/>
     </>
     );

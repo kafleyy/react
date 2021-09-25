@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './MyComponents/Header';
 import {Todos} from "./MyComponents/Todos";
+import {AddToDo} from './MyComponents/AddToDo';
 // import TodoItem from "./MyComponents/TodoItem.js";
 import {Footer} from './MyComponents/Footer';
 import React, { useState } from 'react';
@@ -37,6 +38,7 @@ function App() {
   return(
     <>
     <Header />
+    <AddToDo />
     <Todos todos={todos} onDelete={onDelete}/>
     <Footer/>
     </>
